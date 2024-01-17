@@ -1,0 +1,47 @@
+:root {
+    --text-color: #293264
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.options {
+    display: flex;
+    gap: 1rem;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.option {
+    color: var(--text-color);
+    font-size: 0.64rem;
+    font-weight: 500;
+    border: 2px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 4px 8px;
+    min-width: 4rem;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    font-family: 'Inter', sans-serif;
+}
+
+.option:hover {
+    background-color: #4D5B9E;
+    border: 2px solid #4D5B9E;
+    color: #fff;
+}
+
+.selected {
+    background-color: #D6DBF5;
+    border-color: #D6DBF5;
+}
+
+.selected:hover {
+    background-color: #D6DBF5;
+    border-color: #D6DBF5;
+    color: var(--text-color)
+}

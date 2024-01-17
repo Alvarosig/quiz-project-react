@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #293264
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F7FB;
+}
+
+.question_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.divider {
+    height: 1px;
+    background-color: #DBDEF0;
+    width: 100%;
+}
